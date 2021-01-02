@@ -261,6 +261,7 @@ img:not(.logo__img) {
     border-radius: 10px;
     color: black;
     text-transform: uppercase;
+    font-weight: bold;
   }
 }
 
@@ -270,10 +271,6 @@ img:not(.logo__img) {
 }
 .services__section h1 {
   text-align: center;
-}
-
-.underline {
-  margin: 1rem auto;
 }
 
 .service {
@@ -304,6 +301,12 @@ img:not(.logo__img) {
   font-size: 0.8rem;
   padding: 1rem 1rem;
 }
+.service__underline {
+  width: 20vw;
+  height: 0.5vh;
+  background-color: #f2b707;
+  margin: 1rem auto;
+}
 
 @media screen and (min-width: 768px) {
   .section__center {
@@ -322,5 +325,71 @@ img:not(.logo__img) {
   }
   .service__center p {
     padding-bottom: 2rem;
+  }
+  .service__underline {
+    width: 10vw;
+  }
+}
+
+.skills__section {
+  padding: 5rem 0;
+}
+.skills__section h1 {
+  text-align: center;
+}
+
+.skills__center h3 {
+  margin: 1.5rem 0;
+}
+
+.skill {
+  margin-bottom: 1.25rem;
+}
+
+.skill__container {
+  background: #f4f4f4;
+  width: 100%;
+  height: 0.5rem;
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+.skill__value {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #f2b707;
+  height: 100%;
+  width: 60%;
+  border-radius: 0.5rem;
+}
+.skill__text {
+  position: absolute;
+  top: -2rem;
+  left: 50%;
+  translate: translateX(-50%);
+}
+
+.skill p {
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+}
+
+.value-70 {
+  width: 70%;
+}
+
+.value-50 {
+  width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .skills__center {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 1rem;
+  }
+  .skill__container {
+    width: 70%;
   }
 }
