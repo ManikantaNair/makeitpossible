@@ -263,3 +263,64 @@ img:not(.logo__img) {
     text-transform: uppercase;
   }
 }
+
+.services__section {
+  background: hsl(210, 36%, 96%);
+  padding: 5rem 0;
+}
+.services__section h1 {
+  text-align: center;
+}
+
+.underline {
+  margin: 1rem auto;
+}
+
+.service {
+  background: white;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.icon__service {
+  font-size: 2rem;
+  font-weight: 900;
+  padding: 2rem 0;
+}
+
+.service h4 {
+  font-weight: 800;
+  padding-bottom: 1rem;
+}
+.small__underline {
+  width: 5rem;
+  height: 0.2rem;
+  background: #f2b707;
+  margin: auto;
+}
+
+.service p {
+  font-size: 0.8rem;
+  padding: 1rem 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .section__center {
+    width: 95vw;
+  }
+  .service__center {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2rem;
+  }
+  .service {
+    margin-top: 1rem;
+  }
+  .service__center h1 {
+    font-size: 2rem;
+  }
+  .service__center p {
+    padding-bottom: 2rem;
+  }
+}
