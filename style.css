@@ -467,3 +467,28 @@ img:not(.logo__img) {
 .timeline__item p {
   margin-top: 1rem;
 }
+
+.footer__section {
+  padding: 5rem 0;
+  background: black;
+}
+
+.footer__icons {
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.footer__icons i {
+  padding: 0 1rem;
+  cursor: pointer;
+  color: #f2b707;
+}
+.footer__icons i:hover {
+  color: #444243;
+}
+
+.footer__section p {
+  margin-top: 1rem;
+  text-align: center;
+  color: gray;
+}
