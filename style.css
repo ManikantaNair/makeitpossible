@@ -492,3 +492,54 @@ img:not(.logo__img) {
   text-align: center;
   color: gray;
 }
+
+.works__section {
+  padding: 5rem 0;
+}
+
+.works__section h1 {
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+.works__underline {
+  width: 5rem;
+  height: 0.2rem;
+  background: #f2b707;
+  margin: auto;
+}
+
+.button_container {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  color: #444243;
+  background: #f2b707;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+/* .card__container {
+  width: 90vw;
+  margin: 1rem auto;
+} */
+.card {
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .section__center {
+    width: 95vw;
+  }
+  .card__container {
+    margin: 0.5rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1rem;
+  }
+}
