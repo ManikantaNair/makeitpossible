@@ -531,6 +531,10 @@ img:not(.logo__img) {
 .card {
   margin-top: 2rem;
 }
+.first__child img {
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 
 @media screen and (min-width: 768px) {
   .section__center {
